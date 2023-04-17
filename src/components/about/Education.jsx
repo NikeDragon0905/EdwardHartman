@@ -5,7 +5,7 @@ const educationContent = [
     year: "EDUCATION: 2013 - 2017",
     university: "National University of Singapore",
     degree: "Bachelor of Computer Science (BCompSc)",
-    details: "GPA: 3.8/3.9 🌟",
+    details: "GPA: 3.8/3.9 ⭐",
   },
   {
     year: "Sep 2021",

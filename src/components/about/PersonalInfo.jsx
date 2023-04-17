@@ -5,7 +5,7 @@ const personalInfoContent = [
   { meta: "last name", metaInfo: "Hartman" },
   { meta: "Age", metaInfo: "27" },
   // { meta: "Nationality", metaInfo: "US" },
-  { meta: "Freelance", metaInfo: "Available" },
+  { meta: "Gender", metaInfo: "Male" },
   { meta: "Address", metaInfo: "Brentwood, Texas, US" },
   { meta: "phone", metaInfo: "+832-699-0288" },
   { meta: "Email", metaInfo: "nikedragon0905@gmail.com" },

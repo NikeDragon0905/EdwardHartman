@@ -7,7 +7,6 @@ const skillsContent = [
   { skillPercent: "98", skillName: "Javascript" },
   { skillPercent: "96", skillName: "Typescript" },
   // { skillPercent: "68", skillName: "Rust" },
-  { skillPercent: "92", skillName: "Canvas" },
   { skillPercent: "96", skillName: "NodeJS" },
   { skillPercent: "94", skillName: "PHP" },
   // { skillPercent: "85", skillName: "MySQL" },
@@ -16,8 +15,8 @@ const skillsContent = [
   // { skillPercent: "83", skillName: "MongoDB" },
   
   //WEB3
-  { skillPercent: "84", skillName: "Solidity" },
-  { skillPercent: "88", skillName: "Web3" },
+  { skillPercent: "88", skillName: "Solidity" },
+  { skillPercent: "95", skillName: "Web3" },
   // { skillPercent: "83", skillName: "DEX" },
   // { skillPercent: "66", skillName: "Moralis" },
   // { skillPercent: "53", skillName: "Ethereum" },
@@ -31,19 +30,20 @@ const skillsContent = [
   { skillPercent: "99", skillName: "CSS" },
   // { skillPercent: "85", skillName: "SCSS" },
   // { skillPercent: "59", skillName: "LESS" },
-  { skillPercent: "95", skillName: "React" },
+  { skillPercent: "98", skillName: "React" },
   { skillPercent: "92", skillName: "Angular" },
-  { skillPercent: "89", skillName: "Vue.js" },
+  { skillPercent: "94", skillName: "Vue.js" },
 
   //Backend
   { skillPercent: "87", skillName: "Laravel" },
-  { skillPercent: "94", skillName: "ExpressJS" },
-  { skillPercent: "88", skillName: "Django" },
-  { skillPercent: "82", skillName: ".NET" },
+  { skillPercent: "99", skillName: "ExpressJS" },
+  { skillPercent: "92", skillName: "Django" },
+  { skillPercent: "85", skillName: ".NET" },
+  { skillPercent: "84", skillName: "Golang" },
 
   //No-Coding
-  { skillPercent: "86", skillName: "WordPress" },
-  { skillPercent: "83", skillName: "Shopify" },
+  { skillPercent: "90", skillName: "WordPress" },
+  { skillPercent: "84", skillName: "Shopify" },
   // { skillPercent: "78", skillName: "Webflow" },
   //OTHERS
   // { skillPercent: "84", skillName: "STREAMING" },

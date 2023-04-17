@@ -26,7 +26,7 @@ const Hero = () => {
               alt="hero man"
             />
             <h1 className="text-uppercase ">
-              {heroContent.heroTitleName}.
+              {heroContent.heroTitleName}
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font" style={{ textAlign: 'justify' }}>{heroContent.heroDescriptions}</p>
