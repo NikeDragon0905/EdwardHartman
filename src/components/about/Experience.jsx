@@ -10,7 +10,7 @@ const experienceContent = [
       & Worked on Golang Backend API service`,
   },
   {
-    year: "Oct 2020 - Dec 2021",
+    year: "Oct 2020 - Feb 2022",
     position: "Senior Full Stack Engineer",
     compnayName: "Golden Hippo (United States)",
     details:
@@ -19,7 +19,7 @@ const experienceContent = [
       & Worked using CMS Frameworks and no-coding platforms`,
   },
   {
-    year: "Dec 2019 - Sep 2020",
+    year: "Dec 2019 - Oct 2020",
     position: "Full Stack Developer",
     compnayName: "Coding Dojo (United States)",
     details:
@@ -28,7 +28,7 @@ const experienceContent = [
       & Added to the company database of code by developing reusable code that could minimize the time needed to maintain the projects`,
   },
   {
-    year: "Jun 2017 - Nov 2019",
+    year: "May 2017 - Dec 2019",
     position: "Intern Web & Mobile App Developer",
     compnayName: "Forest Company (Hong Kong)",
     details:
