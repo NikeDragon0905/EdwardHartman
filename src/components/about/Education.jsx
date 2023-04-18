@@ -26,7 +26,7 @@ const educationContent = [
     details: "Coursera",
   },
   {
-    year: "Feb 2018",
+    year: "Jul 2018",
     university: "NodeJS-The Complete Guide",
     degree: "🍸",
     details: "Udemy",
