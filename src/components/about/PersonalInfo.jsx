@@ -8,7 +8,7 @@ const personalInfoContent = [
   { meta: "Gender", metaInfo: "Male" },
   { meta: "Address", metaInfo: "Brentwood, Texas, US" },
   { meta: "phone", metaInfo: "+832-699-0288" },
-  { meta: "Email", metaInfo: "nikedragon0905@gmail.com" },
+  { meta: "Email", metaInfo: "nike.dragon0905@gmail.com" },
   { meta: "Skype", metaInfo: "live:.cid.db7376c3cccdf9af" },
   { meta: "Discord", metaInfo: "NikeDragon#9783" },
   { meta: "LinkedIn", metaInfo: "in/edward-hartman0905" },
