@@ -4,7 +4,7 @@ const Address = () => {
   const contactInfo = {
     address: "Austin, Texas, US",
     mail: "nikedragon0905@gmail.com",
-    phone: "+832-699-0288",
+    phone: "(832) 699 0288",
   };
   return (
     <>
