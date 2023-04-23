@@ -3,8 +3,8 @@ import React from "react";
 const Address = () => {
   const contactInfo = {
     address: "Austin, Texas, US",
-    mail: "nikedragon0905@gmail.com",
-    phone: "(832) 699 0288",
+    mail: "nike.dragon0905@gmail.com",
+    phone: "(786) 347 1994",
   };
   return (
     <>
@@ -17,14 +17,14 @@ const Address = () => {
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-envelope-open position-absolute"></i>
-        <span className="d-block">mail me</span>{" "}
+        <span className="d-block">Mail Me</span>{" "}
         <a href={`mailto:${contactInfo.mail}`}>{contactInfo.mail}</a>
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
-        <span className="d-block">call me</span>{" "}
+        <span className="d-block">Call Me</span>{" "}
         <a href={`Tel: ${contactInfo.phone}`}>{contactInfo.phone}</a>
       </p>
       {/* End .custom-span-contact */}
