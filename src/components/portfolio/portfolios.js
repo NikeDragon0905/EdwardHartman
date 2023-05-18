@@ -1,11 +1,13 @@
 export const portfolioTypes = {
-  FrontEnd: "Front-End",
-  Blockchain: "Blockchain",
-  FullStack: "Full-Stack",
+  FRONT_END: "Front-End",
+  FULL_STACK: "Full-Stack",
+  E_COMMERCE: 'E-Commerce',
+  BLOCKCHAIN: "Blockchain",
 };
 export const portfolioData = [
+  // FRONT-END
   {
-    type: portfolioTypes.FrontEnd,
+    type: portfolioTypes.FRONT_END,
     name: "HodlPad project",
     client: "HODL",
     languages: "React, JSS, Tailwindcss, Web3 integration",
@@ -13,7 +15,7 @@ export const portfolioData = [
     image: "img/projects/hodlpad.jpg",
   },
   {
-    type: portfolioTypes.FrontEnd,
+    type: portfolioTypes.FRONT_END,
     name: "Fuzzy.one project",
     client: "Fuzzy.one",
     languages: "React",
@@ -21,7 +23,7 @@ export const portfolioData = [
     image: "img/projects/fuzzy.jpg",
   },
   {
-    type: portfolioTypes.FrontEnd,
+    type: portfolioTypes.FRONT_END,
     name: "CARDENCE project",
     client: "CARDENCE",
     languages: "React, styled-components",
@@ -29,15 +31,16 @@ export const portfolioData = [
     image: "img/projects/cardence.jpg",
   },
   {
-    type: portfolioTypes.FrontEnd,
+    type: portfolioTypes.FRONT_END,
     name: "Akilcoin Market",
     client: "Akil",
     languages: "React, JSS",
     preview: "https://akilcoin.com/",
     image: "img/projects/akilcoin.jpg",
   },
+  // FULL-STACK
   {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "Plethroi Bridge project",
     client: "Plethori",
     languages: "React, Solidity",
@@ -45,16 +48,7 @@ export const portfolioData = [
     image: "img/projects/plethori-bridge.jpg",
   },
   {
-    type: portfolioTypes.Blockchain,
-    name: "Devious Licks DGOLD",
-    client: "Fitz",
-    languages: "Solidity",
-    preview:
-      "https://bscscan.com/address/0x9e545b66afad4836656601b0a6c6c4508b33e2c4",
-    image: "img/projects/devious-licks-token.jpg",
-  },
-  {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "Moon Roll",
     client: "Moon",
     languages: " React, Tailwindcss, Express, Web3 integration",
@@ -62,15 +56,7 @@ export const portfolioData = [
     image: "img/projects/moon-roll.jpg",
   },
   {
-    type: portfolioTypes.FullStack,
-    name: "Plethori ETF Analysis Tool",
-    client: "Callum",
-    languages: " React, Tailwindcss, Python",
-    preview: "https://plethori-etf-analysis-tool.herokuapp.com/",
-    image: "img/projects/plethori-etf.jpg",
-  },
-  {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "IMBUE",
     client: "Carrabre",
     languages: " React, Tailwindcss, Solidity, Livepeer",
@@ -78,7 +64,7 @@ export const portfolioData = [
     image: "img/projects/imbue.jpg",
   },
   {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "Swappery",
     client: "Casper",
     languages:
@@ -87,7 +73,7 @@ export const portfolioData = [
     image: "img/projects/swappery.jpg",
   },
   {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "powernode",
     client: "",
     languages: "React, styled-components, Tailwindcss, Web3 integration, Node.js, AWS",
@@ -95,7 +81,7 @@ export const portfolioData = [
     image: "img/projects/powernode.jpg",
   },
   {
-    type: portfolioTypes.FullStack,
+    type: portfolioTypes.FULL_STACK,
     name: "Swappery",
     client: "Casper",
     languages: "Typescript, Next.js, Tailwindcss, GraphQL, Strapi API",
@@ -103,11 +89,70 @@ export const portfolioData = [
     image: "img/projects/bluejestic.jpg",
   },
   {
-    type: portfolioTypes.FrontEnd,
+    type: portfolioTypes.FRONT_END,
     name: "Daclify by Animus",
     client: "-",
     languages: " Vue, Nuxt.js, SCSS",
     preview: "https://daclify.animus.is/",
     image: "img/projects/daclify.jpg",
   },
+  // E-COMMERCE
+  {
+    type: portfolioTypes.E_COMMERCE,
+    name: "Structube",
+    client: "Gianna Fleming",
+    languages: "Typescript, React, PHP, GraphQL, MySQL",
+    preview: "https://structube.com/",
+    image: "img/projects/e-commerce/structube.jpg",
+  },
+  {
+    type: portfolioTypes.E_COMMERCE,
+    name: "Death Wish Coffee",
+    client: "DeathWishCoffee",
+    languages: "Shopify, Shogun Frontend, Stripe API, AWS",
+    preview: "https://deathwishcoffee.com/",
+    image: "img/projects/e-commerce/deathwishcoffee.jpg",
+  },
+  {
+    type: portfolioTypes.E_COMMERCE,
+    name: "Bed Shed",
+    client: "Laura Turner",
+    languages: "Vue.js, Swiper, Tailwind CSS, Express",
+    preview: "https://bedshed.com.au/",
+    image: "img/projects/e-commerce/bedshed.jpg",
+  },
+  {
+    type: portfolioTypes.E_COMMERCE,
+    name: "Sofas & Sectionals",
+    client: "Scott Davis",
+    languages: "React, Next.js, Node.js, LiveChat, Vercel",
+    preview: "https://sofasandsectionals.com/",
+    image: "img/projects/e-commerce/sofasandsectionals.jpg",
+  },
+  // BLOCKCHAIN & WEB3
+  {
+    type: portfolioTypes.BLOCKCHAIN,
+    name: "Moonroll",
+    client: "Moon Roll",
+    languages: "React, Tailwind CSS, Node.js, Express, Heroku",
+    preview: "https://moonroll.io/lootboxes",
+    image: "img/projects/blockchain.web3/moonroll.jpg",
+  },
+  {
+    type: portfolioTypes.BLOCKCHAIN,
+    name: "Changelly",
+    client: "Changelly",
+    languages: "React, Next.js, Node.js, Google Analystics",
+    preview: "https://changelly.com/",
+    image: "img/projects/blockchain.web3/changelly.jpg",
+  },
+  {
+    type: portfolioTypes.BLOCKCHAIN,
+    name: "NFT-Valuations",
+    client: "Frank Meyer",
+    languages: "React, jQuery, ECharts, Node.js, Nginx",
+    preview: "https://nftvaluations.com/",
+    image: "img/projects/blockchain.web3/nft-valuations.jpg",
+  },
+  // MOBILE
 ];
