@@ -2,40 +2,25 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "Feb 2022 - Feb 2023",
-    position: "Senior Front End & Blockchain Engineer",
+    year: "Oct 2021 - Apr 2023",
+    position: "Senior Frontend Developer & Blockchain Engineer",
     compnayName: "PowerUSD, LLC (United States)",
     details:
-      `Developed smart contracts for decentralized lending platform on Ethereum blockchain and integrated with Front-end using web3\n
-      & Worked on Golang Backend API service`,
+      `Developed 12+ smart contracts on Ethereum/Binance networks and integrated with frontend using web3; Designed, created 10+ web/mobile apps for frontend interface and integrated 3rd-party APIs with a backend team; Optimised 15+ apps to enhance performance, assisted in building 100% reusable code and libraries for future use`,
   },
   {
-    year: "Oct 2020 - Feb 2022",
-    position: "Senior Full Stack Engineer",
+    year: "Oct 2018 - Oct 2021",
+    position: "Full Stack Engineer",
     compnayName: "Golden Hippo (United States)",
     details:
-      `Worked with a team of senior web designers, full-stack engineers, and the QAs to meet project goals and create effective user experiences for millions of subscribers\n
-      & Developed full-stack applications across various platforms using the latest industry-adopted technologies and frameworks\n
-      & Worked using CMS Frameworks and no-coding platforms`,
+      `Designed, innovated, and modified 25+ software systems and custom components; Defined 30+ new software solutions by analyzing system performance standards; Planned, tracked, and managed deliverables on 200+ short-term sprints and 50+ long-term deployments`,
   },
   {
-    year: "Dec 2019 - Oct 2020",
-    position: "Full Stack Developer",
+    year: "May 2017 - Oct 2018",
+    position: "Web | Mobile App Developer",
     compnayName: "Coding Dojo (United States)",
     details:
-      `Developed dynamic and interactive websites that ensured high traffic, page views, and user experience, resulting in 40% increase in sales revenue\n
-      & Oversaw the full lifecycle of software development for 4 projects with 100% on-time delivery while staying 5% under budget\n
-      & Added to the company database of code by developing reusable code that could minimize the time needed to maintain the projects`,
-  },
-  {
-    year: "May 2017 - Dec 2019",
-    position: "Intern Web & Mobile App Developer",
-    compnayName: "Forest Company (Hong Kong)",
-    details:
-      `Designed the Web application layout and forms\n
-      & Handled all the client-side validations, slide show, hide/show controls, dropdown menus, and tab navigation using jQuery\n
-      & Wrote application-level code to perform client-side validations using jQuery and JavaScript\n
-      & Used SVN for version control and defect tracking`,
+      `Provided customer-first priority, fixed buges, and maintained a 99% SLA for response/resolution times; Provided customer-first priority, fixed buges, and maintained a 99% SLA for response/resolution times; •Implemented and maintained 30+ REST APIs writing documentation using OpenAPI specifications`,
   },
 ];
 
@@ -47,7 +32,7 @@ const Experience = () => {
           <div className="icon">
             <i className="fa fa-briefcase"></i>
           </div>
-          <span className="time open-sans-font text-uppercase">{val.year}</span>
+          <span className="time open-sans-font">{val.year}</span>
           <h5 className="poppins-font">
             {val.position}
             <span className="place open-sans-font">{val.compnayName}</span>

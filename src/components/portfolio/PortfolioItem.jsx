@@ -10,7 +10,7 @@ const PortfolioItem = ({ portfolio }) => {
   return (
     <li data-aos='fade-right' data-aos-duration='1200' data-aos-delay='0'>
       <figure onClick={toggleModal} w='auto' h='auto'>
-        <img src={portfolio.image} w='auto' h='auto' alt='Portolio' />
+        <img src={portfolio.image} style={{objectFit: 'contain'}} w='auto' h='' alt='Portolio' />
         <div className=' hover-content-wrapper'>
           <span className='content-title'>{portfolio.name}</span>
         </div>

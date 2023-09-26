@@ -16,7 +16,7 @@ const index = () => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  personal infos
+                  Personal Infos
                 </h3>
               </div>
               {/* End .col */}
