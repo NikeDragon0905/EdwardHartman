@@ -2,12 +2,6 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "EDUCATION: 2013 - 2017",
-    university: "National University of Singapore",
-    degree: "Bachelor of Computer Science (BCompSc)",
-    details: "GPA: 3.8/3.9 ⭐",
-  },
-  {
     year: "Sep 2021",
     university: "IBM Blockchain Foundation for Developer Certificate",
     degree: "🍸",

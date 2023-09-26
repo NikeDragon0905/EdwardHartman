@@ -22,6 +22,12 @@ const experienceContent = [
     details:
       `Provided customer-first priority, fixed buges, and maintained a 99% SLA for response/resolution times; Provided customer-first priority, fixed buges, and maintained a 99% SLA for response/resolution times; •Implemented and maintained 30+ REST APIs writing documentation using OpenAPI specifications`,
   },
+  {
+    year: "EDUCATION: 2013 - 2017",
+    position: "National University of Singapore",
+    compnayName: "Bachelor of Computer Science (BCompSc)",
+    details: "GPA: 3.9/4.0 ⭐",
+  },
 ];
 
 const Experience = () => {
